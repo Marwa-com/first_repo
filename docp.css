@@ -1,0 +1,273 @@
+
+body{
+    display : block;
+
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+}
+
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+}
+#name {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+
+    
+}
+.navbar a {
+    
+    margin : 5mm;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-decoration: none;
+     
+ }
+ 
+ .navbar a:hover {
+    color:#00b39b;
+}
+.logo {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color:#00b39b;
+}
+.logo h1{
+    font-weight: 100;
+}
+.text{
+    display: flex;
+    width: 70%;
+  justify-content: space-around;
+  margin-left:200px ;
+}
+
+.text p{
+    width: 350px;
+    text-align: justify;
+   
+}
+.grid {
+    display: grid;
+    grid-template-columns:repeat(3,30%);
+    grid-gap: 5mm;
+    width: 80%;
+    margin: 0 auto;
+    height: 345px;
+   margin-top: 10mm;
+   margin-bottom: 10mm;
+   
+  }
+  .grid p{
+      font-size: 25px;
+  }
+  .grid1{
+      background-color:#00b39b;
+      color: blanchedalmond;
+      padding: 20px;
+     border-radius: 10px;
+  }
+  .grid2{
+    background-color:blue;
+    color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid3{
+    background-color:rgb(14, 17, 32);
+    color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#select2{
+    margin-top: 40px;
+    text-decoration-line: underline;
+    background-color:rgb(14, 17, 32);
+    border-color: rgb(14, 17, 32);
+    color: white;
+}
+
+#select1{
+    margin-top: 70px;
+    text-decoration-line: underline;
+    background-color:#00b39b;
+    border-color: #00b39b;
+    color: white;
+}
+#select4{
+   margin-top: 10px;
+   text-decoration-line: underline;
+   background-color:rgb(14, 17, 32);
+   border-color: rgb(14, 17, 32);
+   color: white;
+}
+#select3{
+    margin-top: 70px;
+    text-decoration-line: underline;
+    background-color:blue;
+    border-color: blue;
+    color: white;
+ }
+.platforms {
+    background: url(received_882469205941071.jpeg);
+    display: flex;
+    justify-content: center;
+    margin-top:10mm;
+    <img src="coeur.jpg" width="40" height="40" ></button>
+
+}
+.parag h1 {
+    color:#00b39b ;
+    font-weight: 100;
+}
+.parag p {
+    
+font-weight: 100;
+}
+.icones{
+    display: flex;
+    justify-content: space-around; 
+    margin-left: 50px;
+}
+.colonne1{
+  display: flex;
+  flex-direction:column;
+  margin-top: 20px; 
+  margin-bottom: 10px;
+}
+.patients,.leader{
+    height:50mm ;
+    width:50mm ;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+}
+.colonne2{
+    display: flex;
+    flex-direction:column;
+    margin-left: 30px;
+    margin-top: 10px;  
+    margin-bottom: 20px;
+    
+  }
+  .appointment,.doctors{
+      height: 50mm;
+      width: 50mm;
+      align-items: center;
+      background-color:white;
+      padding: 10px;
+  }
+  .icones h3{
+      color:#00b39b ;
+      font-weight: 100;
+      text-align: center;
+  }
+  .icones p{
+    text-align: center;  
+  }
+  .doctors,.patients{
+      margin-top: 10px;
+  }
+
+  
+  .appointment img,.doctors img,.patients img,.leader img{
+    padding-left: 65px;
+}
+    
+
+.company{
+    display: flex;
+    width: 80%;
+    align-items: center;  
+    margin: 0 auto;
+}
+.company h1{
+    float: left;
+    width: 33%;
+    font-weight: 100;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color:#00b39b;
+}
+
+
+svg{
+    color:#00b39b ;
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;   
+}
+.text2{
+    text-align: center;
+    margin-top: 70px;
+}
+.text2 h1{
+    font-size: 1.625em;  
+    color:#00b39b;
+}
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content:space-between;
+    margin-left: 150px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid rgba(17, 17, 17, 0.03);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    color:  #747474;
+    
+}
+
+.legende{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+input{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-left:100px ;
+}
+.contact h3{
+  font-family: sans-serif;
+  font-weight:100
+
+   
+}
+.foot{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    margin-left:300px ; 
+    margin-top: 40px;
+}
+nav a{
+    text-decoration: none;
+
+}
